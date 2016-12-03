@@ -8,6 +8,7 @@
 #include <stdio.h>
 #include <unistd.h>
 #include <fcntl.h>
+#include "setFdBlock.h"
 
 int setNoBlock(int fd)
 {
